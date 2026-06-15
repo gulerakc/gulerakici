@@ -195,7 +195,19 @@ padding-top:130px;
 max-height:430px;
 object-fit:cover;
 object-position:top;
+    .hero{
+display:flex;
+flex-direction:column;
 }
+
+.hero > div:first-child{
+order:2;
+}
+
+.hero > div:last-child{
+order:1;
+}
+    
 #contact a{
     color:#4da3ff;
     text-decoration:none;
@@ -226,6 +238,10 @@ object-position:top;
 <div class="hero" id="home">
 
 <div>
+<img class="photo" src="IMG_9086.jpg" alt="Güler Akıcı">
+</div>
+
+<div>
 
 <h1>Güler Akıcı</h1>
 
@@ -239,28 +255,17 @@ Yazılım geliştirme, bilgi teknolojileri (IT), iş analizi ve dijital dönüş
 
 <div class="buttons">
 
-<a class="btn" href="https://github.com/gulerakc" target="_blank">
-GitHub
-</a>
+<a class="btn" href="https://github.com/gulerakc" target="_blank">GitHub</a>
 
-<a class="btn dark" href="https://www.linkedin.com/in/güler-akıcı-52627b257" target="_blank">
-LinkedIn
-</a>
+<a class="btn dark" href="https://www.linkedin.com/in/güler-akıcı-52627b257" target="_blank">LinkedIn</a>
 
-<a class="btn dark" href="CV.pdf" target="_blank">
-📄 CV İndir
-</a>
+<a class="btn dark" href="CV.pdf" target="_blank">📄 CV İndir</a>
 
 </div>
 
 </div>
 
-<div>
-<img class="photo" src="IMG_9086.jpg" alt="Güler Akıcı">
 </div>
-
-</div>
-
 <section id="about">
 
 <h2>Hakkımda</h2>
