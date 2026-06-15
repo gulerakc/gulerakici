@@ -1,10 +1,175 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-    <title>Güler Akıcı</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Güler Akıcı</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#0f0f0f;
+color:white;
+line-height:1.7;
+}
+
+header{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+header h1{
+font-size:4rem;
+margin-bottom:15px;
+}
+
+header p{
+font-size:1.3rem;
+color:#bdbdbd;
+max-width:700px;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:14px 30px;
+background:white;
+color:black;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+section{
+max-width:1100px;
+margin:auto;
+padding:80px 20px;
+}
+
+h2{
+font-size:2rem;
+margin-bottom:20px;
+}
+
+.card{
+background:#181818;
+padding:25px;
+border-radius:15px;
+margin-top:15px;
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.skill{
+background:#222;
+padding:10px 20px;
+border-radius:20px;
+}
+
+footer{
+text-align:center;
+padding:40px;
+color:#999;
+}
+
+a{
+color:white;
+}
+</style>
 </head>
+
 <body>
-    <h1>Merhaba, ben Güler Akıcı</h1>
-    <p>Yönetim Bilişim Sistemleri Öğrencisi</p>
+
+<header>
+<h1>Güler Akıcı</h1>
+
+<p>
+Yönetim Bilişim Sistemleri öğrencisi olarak yazılım geliştirme,
+bilgi teknolojileri (IT), iş analizi ve AR-GE odaklı projeler üzerinde
+çalışıyorum. Teknolojiyi iş süreçleriyle birleştirerek yenilikçi
+çözümler üretmeyi hedefliyorum.
+</p>
+
+<a class="btn" href="https://github.com/gulerakc" target="_blank">
+GitHub Profilim
+</a>
+
+</header>
+
+<section>
+<h2>Hakkımda</h2>
+
+<div class="card">
+Yönetim Bilişim Sistemleri 4. sınıf öğrencisiyim.
+Yazılım geliştirme, bilgi teknolojileri ve dijital dönüşüm
+alanlarında kendimi geliştirmekteyim.
+Paris'te geçirdiğim süre boyunca farklı kültürlerle çalışma ve
+iletişim becerilerimi geliştirme fırsatı elde ettim.
+</div>
+</section>
+
+<section>
+<h2>Yetenekler</h2>
+
+<div class="skills">
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">C#</div>
+<div class="skill">SQL</div>
+<div class="skill">GitHub</div>
+<div class="skill">Flutter</div>
+<div class="skill">IT</div>
+<div class="skill">İş Analizi</div>
+<div class="skill">AR-GE</div>
+</div>
+
+</section>
+
+<section>
+<h2>Projeler</h2>
+
+<div class="card">
+Glow Store - Flutter E-Ticaret Uygulaması
+</div>
+
+<div class="card">
+Satış Mağazası Mobil Uygulaması
+</div>
+
+<div class="card">
+Günlük Plan React Projesi
+</div>
+
+</section>
+
+<section>
+<h2>İletişim</h2>
+
+<div class="card">
+LinkedIn: Güler Akıcı<br>
+GitHub: github.com/gulerakc
+</div>
+
+</section>
+
+<footer>
+© 2026 Güler Akıcı
+</footer>
+
 </body>
 </html>
