@@ -140,14 +140,6 @@ transition:.3s;
 transform:scale(1.03); 
 }
     
-@media(max-width:800px){
-
-.hero{
-grid-template-columns:1fr;
-text-align:center;
-padding-top:100px;
-}
-
 .hero h1{
 font-size:42px;
 }
@@ -190,9 +182,17 @@ nav h3{
 font-size:24px;
 }
 
+.menu{
+display:flex;
+gap:15px;
+justify-content:center;
+flex-wrap:wrap;
+align-items:center;
+}
+
 .menu a{
-font-size:15px;
-margin-left:10px;
+margin-left:0;
+font-weight:600;
 }
 
 .hero{
@@ -244,6 +244,8 @@ margin:20px auto 0;
     display:block;
     margin:15px auto;
 }
+    
+}   
     
 </style>
   
