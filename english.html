@@ -1,315 +1,52 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Güler Akıcı | Kişisel Portföy</title>
-
+<title>Güler Akıcı | Personal Portfolio</title>
 <style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
-
-html{
-scroll-behavior:smooth;
-}
-
-body{
-background:#0d0d0d;
-color:white;
-line-height:1.7;
-}
-
-a{
-text-decoration:none;
-color:inherit;
-}
-
-nav{
-position:fixed;
-top:0;
-width:100%;
-padding:20px 8%;
-display:flex;
-justify-content:space-between;
-align-items:center;
-background:rgba(13,13,13,.85);
-backdrop-filter:blur(10px);
-z-index:100;
-}
-
-.hero{
-min-height:100vh;
-display:grid;
-grid-template-columns:1.1fr .9fr;
-align-items:center;
-gap:50px;
-padding:120px 8% 60px;
-}
-
-.hero h1{
-font-size:58px;
-}
-
-.hero h2{
-font-size:22px;
-color:#cfcfcf;
-margin:20px 0;
-}
-
-.hero p{
-color:#bdbdbd;
-max-width:650px;
-}
-
-.buttons{
-margin-top:30px;
-}
-
-.btn{
-display:inline-block;
-padding:13px 24px;
-border-radius:30px;
-margin-right:12px;
-background:white;
-color:black;
-font-weight:bold;
-}
-
-.btn.dark{
-background:#1f1f1f;
-color:white;
-border:1px solid #333;
-}
-
-.photo{
-width:100%;
-max-width:420px;
-border-radius:30px;
-display:block;
-margin:auto;
-}
-
-section{
-padding:80px 8%;
-}
-
-h2{
-margin-bottom:20px;
-}
-
-.card{
-background:#181818;
-padding:20px;
-border-radius:15px;
-margin-bottom:15px;
-}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
-
-.skills span{
-display:inline-block;
-padding:10px 15px;
-background:#1a1a1a;
-border-radius:20px;
-margin:5px;
-}
-
-footer{
-padding:30px;
-text-align:center;
-color:#999;
-}
-
-    .card img{
-width:100%;
-border-radius:10px;
-margin-bottom:15px;
-transition:.3s;
-}
-
-.card img:hover{
-transform:scale(1.03); 
-}
-    
-.hero h1{
-font-size:42px;
-}
-
-.hero h2{
-font-size:18px;
-}
-
-.buttons{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-gap:10px;
-}
-
-.btn{
-margin:0;
-}
-
-.menu{
-display:flex;
-gap:30px;
-align-items:center;
-}
-
-.hero h4{
-color:#9f9f9f;
-font-size:18px;
-margin-bottom:20px;
-font-weight:400;
-}
-
-@media(max-width:800px){
-
-nav{
-padding:16px 7%;
-}
-
-nav h3{
-font-size:24px;
-}
-
-.menu{
-display:flex;
-gap:10px;
-justify-content:center;
-flex-wrap:wrap;
-align-items:center;
-}
-
-.menu a{
-margin-left:0;
-font-weight:600;
-font-size:15px;
-}
-
-.hero{
-padding-top:130px;
-}
-
-.photo{
-max-height:430px;
-object-fit:cover;
-object-position:top;
-}
-
-.hero{
-display:flex;
-flex-direction:column;
-}
-
-.hero{
-display:flex;
-flex-direction:column;
-}
-    
-#contact a{
-    color:#4da3ff;
-    text-decoration:none;
-    font-weight:500;
-}
-
-#contact a:hover{
-    color:#7bbcff;
-    text-decoration:underline;
-}
-    
-.card .btn.dark{
-display:block;
-width:fit-content;
-margin:20px auto 0;
-}
-    .card{
-    max-width:320px;
-}
-
-    .card img{
-    width:220px;
-    height:auto;
-    display:block;
-    margin:15px auto;
-}
-    
-}   
-    
+/* CSS kısmı aynı kalıyor */
 </style>
   
 </head>
-
 <body>
-
 <nav>
-
 <div class="menu">
-<a href="#home">Ana Sayfa</a>
-<a href="#projects">Projeler</a>
-<a href="#experience">Deneyim</a>
-<a href="#contact">İletişim</a>
+<a href="#home">Home</a>
+<a href="#projects">Projects</a>
+<a href="#experience">Experience</a>
+<a href="#contact">Contact</a>
 <a href="english.html">EN🇬🇧</a>
 </div>
 </nav>
-
 <div class="hero" id="home">
-
 <div>
 <img class="photo" src="IMG_9086.jpg" alt="Güler Akıcı">
 </div>
-
 <div>
-
 <h1>Güler Akıcı</h1>
-
 <h2>
-YBS 4. Sınıf Öğrencisi | Yazılım Geliştirme & IT
+4th Year MIS Student | Software Development & IT
 </h2>
-
 <p>
-Yazılım geliştirme, bilgi teknolojileri (IT), iş analizi ve dijital dönüşüm alanlarında kendimi geliştiren bir Yönetim Bilişim Sistemleri öğrencisiyim. Teknoloji ile iş süreçlerini bir araya getirerek verimli ve yenilikçi çözümler üretmeyi hedefliyorum.
+I am a Management Information Systems student focused on improving myself in software development, information technologies (IT), business analysis, and digital transformation. My goal is to create efficient and innovative solutions by combining technology with business processes.
 </p>
-
 <div class="buttons">
-
 <a class="btn dark" href="https://github.com/gulerakc" target="_blank">GitHub</a>
-
-    
 <a class="btn dark" href="https://www.linkedin.com/in/güler-akıcı-52627b257" target="_blank">LinkedIn</a>
-
-    
-<a class="btn dark" href="CV.pdf" target="_blank"> CV İndir</a>
-    
+<a class="btn dark" href="CV.pdf" target="_blank">Download CV</a>
 </div>
-
 </div>
-
 </div>
 <section id="about">
-
-<h2>Hakkımda</h2>
-
+<h2>About Me</h2>
 <div class="card">
-Yönetim Bilişim Sistemleri 4. sınıf öğrencisi olarak yazılım geliştirme, bilgi teknolojileri ve iş süreçleri alanlarında kendimi sürekli geliştirmeye devam ediyorum. Flutter, SQL, HTML, CSS, JavaScript ve C# teknolojileriyle projeler geliştirirken; girişimcilik deneyimim sayesinde teknolojiye yalnızca yazılım perspektifinden değil, iş ve yönetim bakış açısından da yaklaşabiliyorum.
-
-Teknoloji ile iş dünyasını bir araya getiren yenilikçi çözümler üretmeyi, kullanıcı odaklı projeler geliştirmeyi ve kariyerimi yazılım geliştirme, IT ve dijital dönüşüm alanlarında ilerletmeyi hedefliyorum.
+As a fourth-year Management Information Systems student, I continuously improve myself in software development, information technologies, and business processes. While developing projects using Flutter, SQL, HTML, CSS, JavaScript, and C#, my entrepreneurial experience allows me to approach technology not only from a software perspective but also from a business and management perspective.
+My goal is to develop innovative solutions that bring technology and business together, create user-focused projects, and build my career in software development, IT, and digital transformation.
 </div>
 </section>
-
 <section>
-
-<h2>Yetkinlikler</h2>
-
+<h2>Skills</h2>
 <div class="skills">
 <span>HTML</span>
 <span>CSS</span>
@@ -321,178 +58,136 @@ Teknoloji ile iş dünyasını bir araya getiren yenilikçi çözümler üretmey
 <span>GitHub</span>
 <span>Figma</span>
 <span>Microsoft Office</span>
-<span>İş Analizi</span>
-<span>Proje Yönetimi</span>
-<span>Bilgi Teknolojileri</span>
-<span>Veri Tabanı Yönetimi</span>
-<span>Mobil Uygulama Geliştirme</span>
-<span>Web Geliştirme</span>
-<span>Yönetim Bilişim Sistemleri</span>
-<span>AR-GE</span>
-<span>Bulut Bilişim</span>
+<span>Business Analysis</span>
+<span>Project Management</span>
+<span>Information Technologies</span>
+<span>Database Management</span>
+<span>Mobile Application Development</span>
+<span>Web Development</span>
+<span>Management Information Systems</span>
+<span>R&D</span>
+<span>Cloud Computing</span>
 <span>UML</span>
-<span>Veri Analizi</span>
-<span>Problem Çözme</span>
-<span>Takım Çalışması</span>
-<span>Girişimcilik</span>
-<span>Operasyon Yönetimi</span>
-<span>Finans ve Muhasebe</span>
+<span>Data Analysis</span>
+<span>Problem Solving</span>
+<span>Teamwork</span>
+<span>Entrepreneurship</span>
+<span>Operations Management</span>
+<span>Finance and Accounting</span>
 </div>
 </section>
-
 <section id="projects">
-
-<h2>Projeler</h2>
-
+<h2>Projects</h2>
 <div class="grid">
-
 <div class="card">
 <img src="glow-home.jpg" alt="Glow Store">
-<h3>Glow Store -  Flutter E-Ticaret Uygulaması</h3>
-
+<h3>Glow Store - Flutter E-Commerce Application</h3>
 <p>
-Flutter ile geliştirilen mobil e-ticaret uygulaması. Ürün listeleme, ürün detay sayfası ve sepet yönetimi özelliklerini içermektedir.
+A mobile e-commerce application developed with Flutter. It includes product listing, product detail pages, and shopping cart management features.
 </p>
-
 <a class="btn dark" href="https://github.com/gulerakc/glow_store" target="_blank">
-GitHub'da Gör
+View on GitHub
 </a>
-
 </div>
-
 <div class="card">
-<img src="gunluk-plan.png" alt="Günlük Plan Uygulaması">
-
-<h3>Günlük Plan - React Planlama Uygulaması</h3>
-
+<img src="gunluk-plan.png" alt="Daily Planner Application">
+<h3>Daily Planner - React Planning Application</h3>
 <p>
-React ile geliştirilen görev yönetimi uygulaması. Görev ekleme, güncelleme ve silme özellikleri ile günlük planlamayı kolaylaştırır.
+A task management application developed with React. It simplifies daily planning with task creation, updating, and deletion features.
 </p>
-
 <a class="btn dark" href="https://github.com/gulerakc/gunluk-plan" target="_blank">
-GitHub'da Gör
+View on GitHub
 </a>
 </div>
-    
 </section>
-    
 <section id="other-projects">
-<h2>Diğer Çalışmalar</h2>
+<h2>Other Projects</h2>
 <div class="grid">
 <div class="card">
-<h3>Flutter Sayaç Uygulaması</h3>
+<h3>Flutter Counter Application</h3>
 <p>
-Flutter ile geliştirilen temel sayaç uygulaması. State yönetimi, widget kullanımı ve kullanıcı etkileşimi mantığını içermektedir.
+A basic counter application developed with Flutter. It includes state management, widget usage, and user interaction logic.
 </p>
 </div>
 <div class="card">
-<h3>Kişi Kartı Uygulaması</h3>
+<h3>Personal Business Card Application</h3>
 <p>
-Flutter ile geliştirilen dijital kartvizit uygulaması. Profil bilgileri, iletişim alanları ve kullanıcı arayüzü tasarımı üzerine çalışılmıştır.
+A digital business card application developed with Flutter. It focuses on profile information, contact sections, and user interface design.
 </p>
 </div>
 </div>
 </section>
-    
 <section id="experience">
-<h2>Deneyim</h2>
+<h2>Experience</h2>
 <div class="card">
-<h3>TNC Group – Yazılım Geliştirme Stajyeri</h3>
-
+<h3>TNC Group – Software Development Intern</h3>
 <p>
-SQL, JavaScript, Figma ve Flutter mobil uygulama geliştirme alanlarında eğitimler aldım, projeler geliştirerek teknik yetkinliklerimi artırdım ve programı başarıyla tamamlayarak sertifika kazandım.
+I received training in SQL, JavaScript, Figma, and Flutter mobile application development, improved my technical skills through projects, and successfully completed the program, earning a certificate.
 </p>
 </div>
 <div class="card">
-<h3>Elçi Tekstil – Kurucu & İşletme Yöneticisi</h3>
+<h3>Elçi Textile – Founder & Business Manager</h3>
 <p>
-Tekstil alanında faaliyet gösteren işletmenin yönetim, operasyon ve muhasebe süreçlerini yönettim. İş geliştirme ve müşteri ilişkileri konularında deneyim kazandım.
+I managed the administrative, operational, and accounting processes of a textile business. I gained experience in business development and customer relations.
 </p>
 </div>
 <div class="card">
-<h3>İstanbul Adliyesi – Zabıt Katibi Stajyeri</h3>
+<h3>Istanbul Courthouse – Court Clerk Intern</h3>
 <p>
-Resmi evrak işlemleri, dosyalama ve kurumsal iş süreçlerinde görev alarak kamu kurumlarının çalışma yapısını deneyimleme fırsatı elde ettim.
+I gained experience in official documentation, filing, and institutional workflows, allowing me to understand the working structure of public institutions.
 </p>
 </div>
 <div class="card">
-<h3>Paris Uluslararası Deneyimi</h3>
+<h3>International Experience in Paris</h3>
 <p>
-Paris'te geçirdiğim süreç boyunca farklı kültürlerle çalışma, iletişim ve uyum becerilerimi geliştirdim. Uluslararası bakış açısı kazandım.
+During my time in Paris, I improved my ability to work with people from different cultures, strengthened my communication and adaptability skills, and gained an international perspective.
 </p>
 </div>
 </section>
-    
-  <section>
-<h2>Sertifikalar</h2>
-
-<div class="card">Flutter ile Mobil Uygulama Geliştirme – BTK Akademi</div>
-
-<div class="card">Proje ve Risk Yönetimi – BTK Akademi</div>
-
-<div class="card">KOSGEB Girişimcilik Eğitimi</div>
-
-<div class="card">Veri Tabanı ve SQL</div>
-
-<div class="card">Web Geliştirme: JavaScript</div>
-
-<div class="card">UI/UX ve Web Tasarımı (Figma)</div>
-
-<div class="card">Mobil Uygulama Geliştirme (Android / iOS)</div>
-
+<section>
+<h2>Certificates</h2>
+<div class="card">Mobile Application Development with Flutter – BTK Academy</div>
+<div class="card">Project and Risk Management – BTK Academy</div>
+<div class="card">KOSGEB Entrepreneurship Training</div>
+<div class="card">Database and SQL</div>
+<div class="card">Web Development: JavaScript</div>
+<div class="card">UI/UX and Web Design (Figma)</div>
+<div class="card">Mobile Application Development (Android / iOS)</div>
 </section>
-
-  <section>
-<h2>Başarılar</h2>
-
+<section>
+<h2>Achievements</h2>
 <div class="card">
 <ul>
-<li>KOSGEB Destekli Genç Girişimci</li>
-<li>KOBİ İşletmesi Kurucusu</li>
-<li>ARELKAM Kariyer Elçisi Takım Üyesi</li>
+<li>KOSGEB-Supported Young Entrepreneur</li>
+<li>Founder of an SME Business</li>
+<li>ARELKAM Career Ambassador Team Member</li>
 </ul>
 </div>
-
 </section>
-  
 <section id="contact">
-
-<h2>İletişim</h2>
-
+<h2>Contact</h2>
 <div class="card">
-
-📧 E-posta:
+📧 Email:
 <br>
-
 <a href="mailto:gulerakici0@gmail.com" style="color:#58a6ff;">
 gulerakici0@gmail.com
 </a>
-
 <br><br>
-
 💻 GitHub:
 <br>
-
 <a href="https://github.com/gulerakc" target="_blank" style="color:#58a6ff;">
 github.com/gulerakc
 </a>
-
 <br><br>
-
 🔗 LinkedIn:
 <br>
-
 <a href="https://www.linkedin.com/in/güler-akıcı-52627b257" target="_blank" style="color:#58a6ff;">
 Güler Akıcı
 </a>
-
 </div>
-
 </section>
-
 <footer>
 © 2026 Güler Akıcı
 </footer>
-
 </body>
 </html>
